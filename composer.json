@@ -1,5 +1,5 @@
 {
-    "name": "drupal/core",
+    "name": "mixologic/core",
     "description": "Drupal is an open source content management platform powering millions of websites and applications.",
     "type": "drupal-core",
     "license": "GPL-2.0-or-later",
@@ -220,7 +220,7 @@
     "scripts": {
         "pre-autoload-dump": "Drupal\\Core\\Composer\\Composer::preAutoloadDump",
         "post-autoload-dump": [
-          "Drupal\\Core\\Composer\\Composer::ensureHtaccess"
+            "Drupal\\Core\\Composer\\Composer::ensureHtaccess"
         ]
     }
 }
